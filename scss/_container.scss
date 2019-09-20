@@ -64,5 +64,10 @@
     @include mobile {
       align-items: center;
     }
+
+    @include mobileL {
+      text-align: center;
+      flex-direction: column-reverse;
+    }
   }
 }

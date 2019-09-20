@@ -5,6 +5,10 @@
     padding: 40px 0;
   }
 
+  @include mobileL {
+    padding: 10px;
+  }
+
   &__copyright {
     font-weight: 700;
 
@@ -32,6 +36,10 @@
 
     @include mobile {
       display: block;
+    }
+
+    @include mobileL {
+      margin-bottom: 25px;
     }
   }
 }

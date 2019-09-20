@@ -1,6 +1,10 @@
 .contactus {
   padding: 50px 0;
 
+  @include mobileL {
+    padding: 20px 0;
+  }
+
   &__top {
     margin-bottom: 80px;
 

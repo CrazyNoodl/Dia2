@@ -186,8 +186,8 @@
 
     @include desktopxl {
       top: auto;
-      left: 0;
-      transform: none;
+      bottom: 0;
+      left: 50%;
       justify-content: space-between;
     }
 
@@ -204,7 +204,8 @@
     transform: rotate(45deg);
 
     &:hover {
-      border-color: darken(#FCC304, 5%)
+      border-color: darken(#FCC304, 5%);
+      cursor: pointer;
     }
 
     &:active {
@@ -236,6 +237,7 @@
     @include desktopxl {
       top: auto;
       left: 50%;
+      bottom: -40px;
       transform: translate(-50%);
       justify-content: space-between;
     }
