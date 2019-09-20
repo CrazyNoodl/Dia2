@@ -719,12 +719,15 @@ body {
   background-color: #fff;
   color: #253757;
   margin-bottom: 80px;
+  border: 2px solid #FFF;
+  transition: 0.2s;
 }
 .header__button:hover {
-  background-color: #e6e6e6;
+  background-color: #56CCF2;
+  color: #fff;
 }
 .header__button:active {
-  background-color: #d5d5d5;
+  background-color: #27beee;
 }
 @media (max-width: 1024px) {
   .header__button {
@@ -1227,6 +1230,14 @@ body {
   color: #FFF;
   text-decoration: none;
   margin: 0 auto;
+  border: 2px solid #2F80ED;
+}
+.gta__button:hover {
+  background-color: #FFF;
+  color: #2F80ED;
+}
+.gta__button:active {
+  background-color: #e6e6e6;
 }
 @media (max-width: 1024px) {
   .gta {
@@ -1287,6 +1298,14 @@ body {
   background: #2F80ED;
   padding: 16px 92px;
   color: #fff;
+  border: 2px solid #2F80ED;
+}
+.contactus__button:hover {
+  background-color: #FFF;
+  color: #2F80ED;
+}
+.contactus__button:active {
+  background-color: #e6e6e6;
 }
 @media (max-width: 768px) {
   .contactus__button {
@@ -1327,6 +1346,10 @@ body {
 }
 .contactus__social > li {
   margin-right: 48px;
+  transition: 0.2s;
+}
+.contactus__social > li:hover {
+  transform: scale(1.2);
 }
 @media (max-width: 425px) {
   .contactus__social > li {

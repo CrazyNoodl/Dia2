@@ -120,13 +120,16 @@
     background-color: #fff;
     color: $main-color;
     margin-bottom: 80px;
+    border: 2px solid #FFF;
+    transition: .2s;
 
     &:hover {
-      background-color: darken(#eee, 3%);
+      background-color: $theme-color;
+      color: #fff;
     }
 
     &:active {
-      background-color: darken(#eee, 10%);
+      background-color: darken($theme-color, 10%);
     }
 
     @include tablet {

@@ -56,6 +56,16 @@
     background: #2F80ED;
     padding: 16px 92px;
     color: #fff;
+    border: 2px solid #2F80ED;
+
+    &:hover {
+      background-color: #FFF;
+      color: #2F80ED;
+    }
+
+    &:active {
+      background-color: darken(#FFF, 10%);
+    }
 
     @include mobile {
       margin: 0 auto;
@@ -71,7 +81,7 @@
     @include mobileL {
       flex-direction: column;
       justify-content: center;
-text-align: center;
+      text-align: center;
     }
   }
 
@@ -101,6 +111,11 @@ text-align: center;
 
     &>li {
       margin-right: 48px;
+      transition: .2s;
+
+      &:hover {
+        transform: scale(1.2);
+      }
 
       @include mobileL {
         margin-right: 0;
