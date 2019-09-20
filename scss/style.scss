@@ -1,0 +1,33 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FCFCFD;
+  @include main-font;
+  font-size: $main-size;
+  font-weight: $main-weight;
+  line-height: $main-height;
+  color: $main-color;
+}
+
+@import "section";
+@import "container";
+@import "titles";
+@import "button";
+@import "navigation";
+@import "header";
+@import "social";
+@import "intro";
+@import "services";
+@import "process";
+@import "features";
+@import "testemonials";
+@import "person";
+@import "gta";
+@import "contactus";
+@import "footer";
