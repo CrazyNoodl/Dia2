@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="favicon.ico"/>
+  <link rel="shortcut icon" href="favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,700,800,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>diaProject</title>
@@ -13,26 +13,26 @@
 
 <body>
   <!-- HEADER -->
-  <header class="section header">
+  <header class="section header" id="home">
     <div class="container container-header">
       <div class="header__top">
         <a href="#" class="logo header__logo">Dia</a>
-        <nav class="nav header__nav">
+        <nav class="nav header__nav" id="menu">
           <ul class="nav__menu header__menu">
             <li class="nav__item">
-              <a class="nav__link header__link" href="#">Home</a>
+              <a class="nav__link header__link" href="#home">Home</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link header__link" href="#">About Us</a>
+              <a class="nav__link header__link" href="#services">Services</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link header__link" href="#">Services</a>
+              <a class="nav__link header__link" href="#features">Work</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link header__link" href="#">Work</a>
+              <a class="nav__link header__link" href="#testemonials">About Us</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link header__link" href="#">Contact Us</a>
+              <a class="nav__link header__link" href="#contactus">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -92,7 +92,7 @@
     </div>
   </section>
   <!-- SERVICES -->
-  <section class="section section-light services">
+  <section class="section section-light services" id="services">
     <div class="container container-services">
       <h2 class="title services__title">
         What we do
@@ -205,7 +205,7 @@
     </div> <!-- container-process -->
   </section>
   <!-- FEATURES -->
-  <section class="section features">
+  <section class="section features" id="features">
     <div class="container">
       <div class="section__inner features__top">
         <div class="section__top">
@@ -258,7 +258,7 @@
     </div> <!-- container-features -->
   </section>
   <!-- TESTEMONIALS -->
-  <section class="section section-light testemonials">
+  <section class="section section-light testemonials" id="testemonials">
     <div class="container">
       <div class="section__inner testemonials__top">
         <div class="section__top">
@@ -335,7 +335,7 @@
     </div> <!-- container-gta -->
   </section>
   <!-- CONTACT US -->
-  <section class="section contactus">
+  <section class="section contactus" id="contactus">
     <div class="container container-contactus">
 
       <div class="contactus__wrapper contactus__wrapper-1">
@@ -347,7 +347,7 @@
             </h4>
           </div>
         </div> <!-- section__inner -->
-        <form class="contactus__form" action="#" method="POST">
+        <form class="contactus__form">
           <label>
             <input class="contactus__input" name="email" type="email" placeholder="Your email">
           </label>
@@ -372,25 +372,25 @@
             By the same illusion which lifts the horizon.
           </h3>
         </div>
-      <div class="contactus__contact">
+        <div class="contactus__contact">
           <div class="contactus__callus">
-              <h5>
-                call us
-              </h5>
-              <a href="tel:+12345555555" class="title contactus__tel">
-                +1 234 555-55-55
-              </a>
-            </div>
-            <div class="contactus__visitus">
-              <h5>
-                visit us
-              </h5>
-              <a href="https://bit.ly/2mp9dH8" class="title contactus__address" target="blank">
-                2905 West Drive, <br>
-                Buffalo Grove
-              </a>
-            </div>
-      </div>
+            <h5>
+              call us
+            </h5>
+            <a href="tel:+12345555555" class="title contactus__tel">
+              +1 234 555-55-55
+            </a>
+          </div>
+          <div class="contactus__visitus">
+            <h5>
+              visit us
+            </h5>
+            <a href="https://bit.ly/2mp9dH8" class="title contactus__address" target="blank">
+              2905 West Drive, <br>
+              Buffalo Grove
+            </a>
+          </div>
+        </div>
         <ul class="social contactus__social">
           <li class="social__item">
             <a class="social__link" href="#">
@@ -417,27 +417,30 @@
       <span class="footer__copyright">
         Design by <a href="#">@mariuszdaniel</a>
       </span>
-      <nav class="nav footer__nav">
+      <nav class="nav footer__nav" id="menu">
         <ul class="nav__menu footer__menu">
           <li class="nav__item">
-            <a class="nav__link" href="#">Home</a>
+            <a class="nav__link" href="#home">Home</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">About Us</a>
+            <a class="nav__link" href="#contatcus">About Us</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Services</a>
+            <a class="nav__link" href="#services">Services</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Work</a>
+            <a class="nav__link" href="#features">Work</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#">Contact Us</a>
+            <a class="nav__link" href="#contatcus">Contact Us</a>
           </li>
         </ul>
       </nav>
     </div> <!-- container-footer -->
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

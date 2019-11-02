@@ -868,7 +868,7 @@ body {
 }
 .services__title {
   position: absolute;
-  top: -0.5em;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
   font-size: 48px;
